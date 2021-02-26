@@ -22,6 +22,11 @@
       padding: 10px 15px;
       cursor: pointer;
     }
+    .home-nav {
+      padding: 10px 15px;
+      cursor: pointer;
+      display: none;
+    }
   }
 }
 
@@ -31,5 +36,9 @@
   }
   .header .options {
     justify-content: flex-start;
+  }
+
+  .header .options .home-nav {
+    display: inline-flex;
   }
 }

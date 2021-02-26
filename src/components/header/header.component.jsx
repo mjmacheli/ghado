@@ -12,6 +12,9 @@ const Header = () => (
     </Link>
 
     <div className='options'>
+      <Link className='home-nav' to='/'>
+        Home
+      </Link>
       <Link className='option' to='/category'>
         ABOUT
       </Link>
